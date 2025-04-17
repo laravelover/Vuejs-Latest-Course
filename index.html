@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Vuejs Course</title>
+    <script src="https://unpkg.com/vue@3"></script>
+</head>
+
+<body>
+    <div id="app">
+        {{ message }}
+    </div>
+</body>
+
+<script>
+    Vue.createApp({
+
+        data() {
+
+            return {
+
+                message: 'Welcome to the Vuejs'
+
+            }
+
+        }
+
+    }).mount('#app')
+</script>
+
+</html>
